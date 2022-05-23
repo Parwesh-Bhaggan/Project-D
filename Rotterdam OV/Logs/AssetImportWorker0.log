@@ -15,7 +15,7 @@ C:/Users/moham/Documents/GitHub/New folder/Project-D/Rotterdam OV
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50321
+64759
 Successfully changed project path to: C:/Users/moham/Documents/GitHub/New folder/Project-D/Rotterdam OV
 C:/Users/moham/Documents/GitHub/New folder/Project-D/Rotterdam OV
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/moham/Documents/GitHub/New folder/Project-D/Rotterdam OV
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 50.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path D:/unity/Unity Hub/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,87 +63,195 @@ Initialize mono
 Mono path[0] = 'D:/unity/Unity Hub/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/Unity Hub/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/Unity Hub/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/Unity Hub/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.059853 seconds.
+Registered in 0.005783 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.850 seconds
+- Completed reload, in  0.895 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6850ms)
-		BeginReloadAssembly (3696ms)
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1292ms)
-			LoadAssemblies (3694ms)
-			RebuildTransferFunctionScriptingTraits (93ms)
-			SetupTypeCache (267ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (693ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (449ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (6ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004663 seconds.
+Registered in 0.068488 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.661 seconds
+- Completed reload, in  1.711 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1662ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (1713ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1306ms)
-			LoadAssemblies (205ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (699ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (678ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (210ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (47.4 KB). Loaded Objects now: 2132.
+Memory consumption went from 71.9 MB to 71.8 MB.
+Total: 4.464400 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.144300 ms MarkObjects: 3.872600 ms  DeleteObjects: 0.125500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18492.025715 seconds.
+  path: Assets/Scenes/Mohamad.unity
+  artifactKey: Guid(b4539c20d705e5c459a744ece05f24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mohamad.unity using Guid(b4539c20d705e5c459a744ece05f24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fb77343a79c0c704767a249a12a256') in 0.009764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.749196 seconds.
+  path: Assets/3D stadsmodellen/Bomen Cool.obj
+  artifactKey: Guid(34a4d0d6e93653e4a8e5afd21532cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Bomen Cool.obj using Guid(34a4d0d6e93653e4a8e5afd21532cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4214140cb874627d9e6a4c15afb2ee') in 1.115287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D stadsmodellen/Cool.obj
+  artifactKey: Guid(3359e8e771c3f634d9dec33ae4baafaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Cool.obj using Guid(3359e8e771c3f634d9dec33ae4baafaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aca7585d4d8ba695085d21f6738a6b') in 0.121173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D stadsmodellen/Bomen Oude westen.obj
+  artifactKey: Guid(d1c96a2dc9b44ba4d8555d3c2cd17d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Bomen Oude westen.obj using Guid(d1c96a2dc9b44ba4d8555d3c2cd17d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25135fc9b2f5836f9afe498825f205df') in 0.310081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D stadsmodellen/Nieuwe werk.obj
+  artifactKey: Guid(1e6855edbb03ab84e874d6d647ab7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Nieuwe werk.obj using Guid(1e6855edbb03ab84e874d6d647ab7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9ca9359212e680d3eebbaf2c9e6432') in 0.052187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3D stadsmodellen/Bomen Dijkzigt.obj
+  artifactKey: Guid(c4ebd586f1850014fae46a86b886e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Bomen Dijkzigt.obj using Guid(c4ebd586f1850014fae46a86b886e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefaac7353be6a20b91402f8a32268d6') in 0.210277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D stadsmodellen/Stadsdriehoek.obj
+  artifactKey: Guid(07def5fbf5a112e40ba1877582091757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Stadsdriehoek.obj using Guid(07def5fbf5a112e40ba1877582091757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70ab34712bd71c75255dcbedb7a2304') in 0.135222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D stadsmodellen/Erasmusbrug.obj
+  artifactKey: Guid(4e441b6d672126c4eba2cd42187472cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Erasmusbrug.obj using Guid(4e441b6d672126c4eba2cd42187472cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508998562d2cad6ff1979f6654779214') in 0.060758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D stadsmodellen/Oude Westen.obj
+  artifactKey: Guid(45b2daaa91eb2e74ab1a18656762777a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D stadsmodellen/Oude Westen.obj using Guid(45b2daaa91eb2e74ab1a18656762777a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c501bced0a68cc2a0e7b132be74c5d9') in 0.107944 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1786ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1296ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (665ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (530ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 3.88 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2062 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (103.4 KB). Loaded Objects now: 2538.
-Memory consumption went from 100.7 MB to 100.6 MB.
-Total: 91.136000 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.139100 ms MarkObjects: 90.460300 ms  DeleteObjects: 0.259400 ms)
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (24.6 KB). Loaded Objects now: 2176.
+Memory consumption went from 76.0 MB to 76.0 MB.
+Total: 10.499800 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.094700 ms MarkObjects: 10.065100 ms  DeleteObjects: 0.101900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -156,252 +264,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 15204.345364 seconds.
-  path: Assets/Erasmusbrug.skp
-  artifactKey: Guid(9a91a9008e8c32a4da282b2a495c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erasmusbrug.skp using Guid(9a91a9008e8c32a4da282b2a495c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2d0ebe8dd6f6da78bbbaaa4b9f6518') in 3.441132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043527 seconds.
-  path: Assets/Cool.skp
-  artifactKey: Guid(0e3a1d51b03538146b5520a05b79bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool.skp using Guid(0e3a1d51b03538146b5520a05b79bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43026b3984b0566c2fbf97860410ab2') in 0.181040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/road2Lane_d 1.tga
-  artifactKey: Guid(0c2e0ee22ef7b5e4e883ef5a333be416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/road2Lane_d 1.tga using Guid(0c2e0ee22ef7b5e4e883ef5a333be416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2158c448d12dc445bb1daf44e1f29b') in 0.135204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Stadsdriehoek.skp
-  artifactKey: Guid(ae0595a5de9ca90408bbe611744f7de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stadsdriehoek.skp using Guid(ae0595a5de9ca90408bbe611744f7de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffaf1775300390f91e5277d273b39fd') in 0.228464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Cool 1.skp
-  artifactKey: Guid(d413673ccbb16c84f89482fa49f175aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool 1.skp using Guid(d413673ccbb16c84f89482fa49f175aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3a34704573408eb8949463cd28a424') in 8.327201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 77.580144 seconds.
-  path: Assets/Materials/road2Lane_d 1.mat
-  artifactKey: Guid(808549c043bdc1f48a25a44acfbb5414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/road2Lane_d 1.mat using Guid(808549c043bdc1f48a25a44acfbb5414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aebf11f29ddaa5c25e684c53121a278') in 0.044841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.913699 seconds.
-  path: Assets/Scenes/Bas.unity
-  artifactKey: Guid(628eca34ea36d764c994e92046c0a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Bas.unity using Guid(628eca34ea36d764c994e92046c0a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0491f69655c1d95546f43a2c8c2376aa') in 0.007738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.237529 seconds.
-  path: Assets/Scenes/Mohamad.unity
-  artifactKey: Guid(b4539c20d705e5c459a744ece05f24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mohamad.unity using Guid(b4539c20d705e5c459a744ece05f24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17895545be90b5fab54c331cb9c22a9') in 0.007832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.431508 seconds.
-  path: Assets/Scenes/Mohamad.unity
-  artifactKey: Guid(b4539c20d705e5c459a744ece05f24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mohamad.unity using Guid(b4539c20d705e5c459a744ece05f24d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1bc08cc31fb044c5cb33a4d436b092') in 0.002667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.513648 seconds.
-  path: Assets/MS/Tram1/Scene/Material
-  artifactKey: Guid(01c616d8eae868941b826d9c598d6e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Scene/Material using Guid(01c616d8eae868941b826d9c598d6e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459e59591413896ad79ebe842ceb6da5') in 0.007297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.112074 seconds.
-  path: Assets/MS/Tram1/Scene/Material/darkColor.mat
-  artifactKey: Guid(8e0de0615f08c354aab2acf510593953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Scene/Material/darkColor.mat using Guid(8e0de0615f08c354aab2acf510593953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8eeaeb969dc617f2a8174358018e5e') in 0.201134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.566676 seconds.
-  path: Assets/MS/Tram1/Scene
-  artifactKey: Guid(181f26d3901835049ab5a52672f38c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Scene using Guid(181f26d3901835049ab5a52672f38c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e25143bac6c85e6f5f529ad44d6c26') in 0.007112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.822615 seconds.
-  path: Assets/MS/Tram1/Vehicles/Asset
-  artifactKey: Guid(bbfcfd50f1a290b43a1596ee2a1699e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Asset using Guid(bbfcfd50f1a290b43a1596ee2a1699e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0075be50b30c8ad976675d0ed20da0') in 0.009972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039906 seconds.
-  path: Assets/MS/Tram1/Vehicles/Asset/overhead_type01.prefab
-  artifactKey: Guid(ac931a9fc12f4f84d95190f3756e2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Asset/overhead_type01.prefab using Guid(ac931a9fc12f4f84d95190f3756e2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c748bfaa7a22b99441acb7d09097be') in 0.689738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MS/Tram1/Vehicles/Asset/Tram_Green.prefab
-  artifactKey: Guid(f8ebe4b1733cb244dade943babc23bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Asset/Tram_Green.prefab using Guid(f8ebe4b1733cb244dade943babc23bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb37079ef78c2833d647227afa903c67') in 1.039206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/MS/Tram1/Vehicles/Asset/Tram_Red.prefab
-  artifactKey: Guid(f685bea270f1a644a9dc01b9c8cb20e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Asset/Tram_Red.prefab using Guid(f685bea270f1a644a9dc01b9c8cb20e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c153d0cf6915600fa4408801c6496ff8') in 0.563335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/MS/Tram1/Vehicles/Asset/streetLight.prefab
-  artifactKey: Guid(a7e54922be5fc7448b91222a6bb90771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Asset/streetLight.prefab using Guid(a7e54922be5fc7448b91222a6bb90771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c097371e1d91512be2e970ac0b793d41') in 0.075939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.257534 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials
-  artifactKey: Guid(15d466fc36c192948acc994f54d0e11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials using Guid(15d466fc36c192948acc994f54d0e11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21db64c57e7c95b43dbb54dc6a134c2') in 0.010674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.012481 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/Ground.mat
-  artifactKey: Guid(9c6b75ea868165f4a9c8778edb10c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/Ground.mat using Guid(9c6b75ea868165f4a9c8778edb10c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b2b29e76cafb73ac81ff6d1b29f8d5') in 0.573152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/streetLight_emission.mat
-  artifactKey: Guid(90a65b443abfc9b4d916b75ab73dfb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/streetLight_emission.mat using Guid(90a65b443abfc9b4d916b75ab73dfb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41872244cb29020feb0054ee5e0f337b') in 0.024557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/plate_AMat.mat
-  artifactKey: Guid(7189aa4d27cfab349bd4a81850740f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/plate_AMat.mat using Guid(7189aa4d27cfab349bd4a81850740f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a240f321e48cc7a833e714c1335b476d') in 0.021270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/streetLight.mat
-  artifactKey: Guid(68516846c2e451440bdf924ebf2b66b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/streetLight.mat using Guid(68516846c2e451440bdf924ebf2b66b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda99336b4c0c861619d3a771b661385') in 0.037014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/Tram_Base_g.mat
-  artifactKey: Guid(703c14f21edb8b540b3b4a0db63f7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/Tram_Base_g.mat using Guid(703c14f21edb8b540b3b4a0db63f7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b27382d4a2352179b3da713bd82709e') in 0.135166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/Tram_btmB.mat
-  artifactKey: Guid(b5fe42ad40f5adc45a5efb1082e63692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/Tram_btmB.mat using Guid(b5fe42ad40f5adc45a5efb1082e63692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd720670cd7727227014a6baf9fa18fb1') in 0.239913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/overhead.mat
-  artifactKey: Guid(81305311d2cd53e4eaf61fae755c0f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/overhead.mat using Guid(81305311d2cd53e4eaf61fae755c0f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136402c216dfc247cdebe4852597c08e') in 0.155598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/Tram_adBanner.mat
-  artifactKey: Guid(f62f020707606c84d8c139befe3b3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/Tram_adBanner.mat using Guid(f62f020707606c84d8c139befe3b3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7ade803ce7730143723ce0744ac9c3') in 0.063596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/MS/Tram1/Vehicles/Materials/pantographMat.mat
-  artifactKey: Guid(d56b24606f025e045920ea0563e1d4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Materials/pantographMat.mat using Guid(d56b24606f025e045920ea0563e1d4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc33b181e644d85a1070549c1d268533') in 0.021077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.315749 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh
-  artifactKey: Guid(5b970b9a0b791194bb8d45bf15dea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh using Guid(5b970b9a0b791194bb8d45bf15dea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9560ed39e900d1c68fb18861294cb5f') in 0.012110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060846 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/overhead.obj
-  artifactKey: Guid(7a5e40aba9f3bcc4bb920d33bfbdcca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/overhead.obj using Guid(7a5e40aba9f3bcc4bb920d33bfbdcca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7916b22a6ea6ad0d6857e25ab49f09c') in 0.269531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/streetLight.obj
-  artifactKey: Guid(b93eeedfcb4065e46acafe1816d3a80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/streetLight.obj using Guid(b93eeedfcb4065e46acafe1816d3a80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cf6a4739b9112ee4103e5563979466') in 0.024468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/overhead_type02.obj
-  artifactKey: Guid(e41f2a15682033745940d2815c54322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/overhead_type02.obj using Guid(e41f2a15682033745940d2815c54322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b26832792fe259137d5b06fa73da68') in 0.036725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.969835 seconds.
-  path: Assets/scripts/test.cs
-  artifactKey: Guid(4757ef31326f5d24d954ab96eb97c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/test.cs using Guid(4757ef31326f5d24d954ab96eb97c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8dd88b8fe633ce19b7cf2d1f64edbc') in 0.011958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 399.880965 seconds.
-  path: Assets/scripts/test.cs
-  artifactKey: Guid(4757ef31326f5d24d954ab96eb97c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/test.cs using Guid(4757ef31326f5d24d954ab96eb97c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3eb0c891ada216c6d6c89011c52862') in 0.015153 seconds 
-========================================================================
 Received Prepare
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
 Registering precompiled user dll's ...
-Registered in 0.012435 seconds.
+Registered in 0.009142 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Documents\GitHub\New folder\Project-D\Rotterdam OV\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Documents\GitHub\New folder\Project-D\Rotterdam OV\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.430 seconds
+- Completed reload, in  1.634 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4559ms)
-		BeginReloadAssembly (2912ms)
+	ReloadAssembly (1635ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (58ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (59ms)
-			CreateAndSetChildDomain (825ms)
-		EndReloadAssembly (1365ms)
-			LoadAssemblies (306ms)
-			RebuildTransferFunctionScriptingTraits (35ms)
-			SetupTypeCache (477ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (568ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1305ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (562ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (405ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 185 unused Assets / (24.7 KB). Loaded Objects now: 3982.
-Memory consumption went from 138.2 MB to 138.1 MB.
-Total: 70.814600 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.580700 ms MarkObjects: 68.716300 ms  DeleteObjects: 1.022700 ms)
+Unloading 16 unused Assets / (24.6 KB). Loaded Objects now: 3747.
+Memory consumption went from 115.0 MB to 115.0 MB.
+Total: 3.464700 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.174600 ms MarkObjects: 2.971800 ms  DeleteObjects: 0.031500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -415,49 +321,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 919.065799 seconds.
+  Time since last request: 445.140095 seconds.
   path: Assets/MS
   artifactKey: Guid(09dafe5871899454fab65077422ac7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS using Guid(09dafe5871899454fab65077422ac7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8728a128d3dff4c361e0702ab7b4020') in 0.045711 seconds 
+Start importing Assets/MS using Guid(09dafe5871899454fab65077422ac7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a5745a38d92a489d395ca3b6dc4531') in 0.011031 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.316079 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tram_wheelA.obj
-  artifactKey: Guid(bd71d0102e8e23842953c8541af8810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tram_wheelA.obj using Guid(bd71d0102e8e23842953c8541af8810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b282cc383e10ab25541575e39d936f32') in 0.844777 seconds 
+  Time since last request: 1.520201 seconds.
+  path: Assets/MS/Tram1
+  artifactKey: Guid(dccd04ff59f8ac842b9072382dddf85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1 using Guid(dccd04ff59f8ac842b9072382dddf85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f453b67dfea7cd02161ee7b0f2883d2') in 0.008575 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
+  Time since last request: 0.622994 seconds.
+  path: Assets/MS/Tram1/Vehicles
+  artifactKey: Guid(3b9e87c9718f9ab4b8c7eee117fe69cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles using Guid(3b9e87c9718f9ab4b8c7eee117fe69cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e532b1a2c13c1394b5e639713dcd56e') in 0.006937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.514626 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh
+  artifactKey: Guid(5b970b9a0b791194bb8d45bf15dea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh using Guid(5b970b9a0b791194bb8d45bf15dea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1f9d349440fffe5b0f8203d0a36e2a') in 0.006338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.545658 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj
+  artifactKey: Guid(e44e724bd32d99545ada2fdeea191477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj using Guid(e44e724bd32d99545ada2fdeea191477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca7d2500c1a3f791cbced254015561a') in 0.006911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578657 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram
+  artifactKey: Guid(8c1b75d99dd8be44182a3f2a7da7fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram using Guid(8c1b75d99dd8be44182a3f2a7da7fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b71b17041d2fbb072e0a739707affc0') in 0.007521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050839 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tram_wheelA 1.obj
+  artifactKey: Guid(0b684345b274e9d4f885c6875038cb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tram_wheelA 1.obj using Guid(0b684345b274e9d4f885c6875038cb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9979b80bbf660c877f1bf28cee71a7a5') in 0.110617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
   path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramPantograph.obj
   artifactKey: Guid(9c65b6c2ad53f05438f8e440abeb7fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramPantograph.obj using Guid(9c65b6c2ad53f05438f8e440abeb7fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57b7fab63a639acd797634ce1ac64e1') in 0.065604 seconds 
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramPantograph.obj using Guid(9c65b6c2ad53f05438f8e440abeb7fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c330ff0763abf4900c7c9871647006bb') in 0.036362 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
+  Time since last request: 0.000045 seconds.
   path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramStoboard_2.obj
   artifactKey: Guid(4a9c117dc37407348a5874b6abb005d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramStoboard_2.obj using Guid(4a9c117dc37407348a5874b6abb005d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff11d57e700e7606d0679fc2b734f55') in 0.068434 seconds 
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramStoboard_2.obj using Guid(4a9c117dc37407348a5874b6abb005d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74e7402f51783cd8c7b8cb56b84e484') in 0.035513 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramStoboard_1.obj
-  artifactKey: Guid(471162198e58cbd4ea234e91276b5238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramStoboard_1.obj using Guid(471162198e58cbd4ea234e91276b5238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95ab6b386a1cb19e08768bbbe6a73d8') in 0.106703 seconds 
+  Time since last request: 0.000148 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramadBanner.obj
+  artifactKey: Guid(4c9722d7dde2ac24b810c086d116901d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramadBanner.obj using Guid(4c9722d7dde2ac24b810c086d116901d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e500ea5263ee755399e0a6e3919dd997') in 0.038162 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramLight.obj
-  artifactKey: Guid(21233dde70fd5d141aa6acd895d048be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramLight.obj using Guid(21233dde70fd5d141aa6acd895d048be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1d64fe85c0941a38eda852b25eacf2') in 0.057062 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tram_wheelB 1.obj
+  artifactKey: Guid(94be66a39fc28ee488e05fb4c09f12c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tram_wheelB 1.obj using Guid(94be66a39fc28ee488e05fb4c09f12c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e821a8d08386464a21bdb2b0f7f750') in 0.038735 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramBtm_B.obj
-  artifactKey: Guid(3d6d4b9929196b74ea62a515c05d78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramBtm_B.obj using Guid(3d6d4b9929196b74ea62a515c05d78b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4b3ba8b178bc42b497c7009549edd1') in 0.137678 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramBase.obj
+  artifactKey: Guid(757841b2ed1ea8e44aebbc9dc9466338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramBase.obj using Guid(757841b2ed1ea8e44aebbc9dc9466338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f78d1b4f0c85e5beda7d2a7d6abef6') in 0.040658 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramBtm_A.obj
-  artifactKey: Guid(1444759b5ddbe82429ac8e4da0522c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/TramBtm_A.obj using Guid(1444759b5ddbe82429ac8e4da0522c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40635594dc849f53199b31987c18951b') in 0.137300 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tramlampshade.obj
+  artifactKey: Guid(0c42f7a8261ccbf4395dcdec6d021f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Tramlampshade.obj using Guid(0c42f7a8261ccbf4395dcdec6d021f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3805d1d7a25d022d1da609c2638f95ea') in 0.037428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.479962 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials
+  artifactKey: Guid(788336a2cce0f9543a814e6bd4edce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials using Guid(788336a2cce0f9543a814e6bd4edce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8343a7e772f827021058b7ab1e2ca163') in 0.007273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033046 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials/MeshMat.mat
+  artifactKey: Guid(6df5ede3cb137874d8712ab3fcba3cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials/MeshMat.mat using Guid(6df5ede3cb137874d8712ab3fcba3cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd502f8a3955c965fac4d44d33082bdd8') in 0.044173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials/plate_AMat.mat
+  artifactKey: Guid(0463e2be49ab40145a717fa1ae59a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials/plate_AMat.mat using Guid(0463e2be49ab40145a717fa1ae59a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebef2e4cf40ee0c383e815c83e76bf9') in 0.019695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials/wheel_AMat.mat
+  artifactKey: Guid(fb88bdf932ebee043b6786a8016e3a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MS/Tram1/Vehicles/Mesh/obj/Tram/Materials/wheel_AMat.mat using Guid(fb88bdf932ebee043b6786a8016e3a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969d4a66860980afa11b0d71410a4bf3') in 0.029627 seconds 
