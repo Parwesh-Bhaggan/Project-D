@@ -4,3 +4,7 @@
     "Microsoft.VisualStudio.Workload.ManagedGame"
   ]
 }
+  "components": [ 
+    "Microsoft.VisualStudio.Workload.ManagedGame"
+  ]
+} 
