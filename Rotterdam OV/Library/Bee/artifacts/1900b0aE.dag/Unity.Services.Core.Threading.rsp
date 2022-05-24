@@ -117,6 +117,11 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/GtfsRealtimeBindings.dll"
+-r:"Assets/Plugins/protobuf-net.Core.dll"
+-r:"Assets/Plugins/protobuf-net.dll"
+-r:"Assets/Plugins/System.Collections.Immutable.dll"
+-r:"Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"C:/Users/moham/Documents/GitHub/New folder/Project-D/Rotterdam OV/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"C:/Users/moham/Documents/GitHub/New folder/Project-D/Rotterdam OV/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"C:/Users/moham/Documents/GitHub/New folder/Project-D/Rotterdam OV/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
